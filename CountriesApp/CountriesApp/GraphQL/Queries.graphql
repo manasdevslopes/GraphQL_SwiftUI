@@ -1,0 +1,21 @@
+fragment CountryInfo on Country {
+  name
+  code
+  emoji
+  capital
+}
+
+query GetAllCountries {
+  countries {
+    ...CountryInfo
+  }
+}
+
+query GetCountrytInfo($code: ID!) {
+  country(code: $code) {
+    ...CountryInfo
+    states {
+      name
+    }
+  }
+}
