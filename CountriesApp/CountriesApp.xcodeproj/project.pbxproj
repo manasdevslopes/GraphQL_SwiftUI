@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FD1308CA2D1F32DF00CC823C /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = FD1308C92D1F32DF00CC823C /* Apollo */; };
+		FD1308CF2D1F346500CC823C /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = FD1308CE2D1F346500CC823C /* Apollo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD1308CA2D1F32DF00CC823C /* Apollo in Frameworks */,
+				FD1308CF2D1F346500CC823C /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +70,7 @@
 			);
 			name = CountriesApp;
 			packageProductDependencies = (
-				FD1308C92D1F32DF00CC823C /* Apollo */,
+				FD1308CE2D1F346500CC823C /* Apollo */,
 			);
 			productName = CountriesApp;
 			productReference = FDF73BCD2D1F0B6200ADCB3A /* CountriesApp.app */;
@@ -101,7 +101,7 @@
 			mainGroup = FDF73BC42D1F0B6200ADCB3A;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				FD1308C82D1F32DF00CC823C /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				FD1308CD2D1F346500CC823C /* XCRemoteSwiftPackageReference "apollo-ios" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FDF73BCE2D1F0B6200ADCB3A /* Products */;
@@ -335,7 +335,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		FD1308C82D1F32DF00CC823C /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+		FD1308CD2D1F346500CC823C /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
 			requirement = {
@@ -346,9 +346,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FD1308C92D1F32DF00CC823C /* Apollo */ = {
+		FD1308CE2D1F346500CC823C /* Apollo */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FD1308C82D1F32DF00CC823C /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			package = FD1308CD2D1F346500CC823C /* XCRemoteSwiftPackageReference "apollo-ios" */;
 			productName = Apollo;
 		};
 /* End XCSwiftPackageProductDependency section */
