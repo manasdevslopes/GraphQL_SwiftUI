@@ -13,8 +13,9 @@ struct Constants {
         static let username: String = "manasdevslopes"
     }
     
+  // TODO: - Add GitHubAccessToken
     struct APIKeys {
-        static let GitHubAccessToken: String = "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"
+        static let GitHubAccessToken: String = ""
     }
     
 }
