@@ -14,8 +14,8 @@ struct Constants {
     }
     
   // TODO: - Add GitHubAccessToken
-    struct APIKeys {
-        static let GitHubAccessToken: String = ""
-    }
+//    struct APIKeys {
+//        static let GitHubAccessToken: String = ""
+//    }
     
 }
