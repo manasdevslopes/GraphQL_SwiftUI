@@ -19,7 +19,7 @@ class Network {
     
     let store = ApolloStore()
     // TODO: - Add \(Constants.APIKeys.GitHubAccessToken)
-    configuration.httpAdditionalHeaders = ["authorization": "Bearer "]
+    configuration.httpAdditionalHeaders = ["authorization": "Bearer \(Constants.APIKeys.GitHubAccessToken)"]
     
     let sessionClient = URLSessionClient(sessionConfiguration: configuration, callbackQueue: nil)
     let provider = DefaultInterceptorProvider(client: sessionClient, shouldInvalidateClientOnDeinit: true, store: store)
