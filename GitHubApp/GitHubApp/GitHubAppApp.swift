@@ -56,3 +56,11 @@ mutation CreateRepo {
   }
 }
 */
+
+/*
+ query - to get data
+ mutation - to update, delete, patch
+ subscription - watching/subscribing to data
+ Fragment - snippet of code for reuse
+ @include - directives (if this is there then show data)
+ */
